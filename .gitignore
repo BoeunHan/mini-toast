@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# 빌드 결과물
+dist/
+build/
+lib/
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경 변수 파일
+.env
+.env.local
+.env.*.local
+
+# 타입스크립트 빌드 캐시
+*.tsbuildinfo
+
+# IDE 및 에디터 설정
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS별 파일
+.DS_Store
+Thumbs.db
+
+# 기타
+coverage/
