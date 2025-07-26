@@ -88,7 +88,8 @@ export default App;
 This library requires the following peer dependencies to be installed in your project:
 
 > React (>=17)<br/>
-> Zustand (>=4)
+> Zustand (>=4)<br/>
+> TailwindCSS (>=3)
 
 <br/>
 
