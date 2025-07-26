@@ -1,14 +1,33 @@
 {
-  "name": "mini-toast",
+  "name": "@bonn/mini-toast",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup src/index.tsx --format cjs,esm --dts"
   },
-  "author": "",
-  "description": "",
+  "author": "Bonn Studio",
+  "description": "Lightweight toast notification library using Zustand and React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BoeunHan/mini-toast.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "toast",
+    "notification",
+    "react",
+    "zustand",
+    "ui",
+    "lightweight"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": ">=17",
     "zustand": ">=4"
