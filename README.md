@@ -1,4 +1,4 @@
-# @bonn/mini-toast
+# mole-toast
 
 Lightweight toast notification library for React
 
@@ -15,9 +15,9 @@ Lightweight toast notification library for React
 ## Installation
 
 ```bash
-npm install @bonn/mini-toast
+npm install mole-toast
 # or
-yarn add @bonn/mini-toast
+yarn add mole-toast
 ```
 
 > **Note**: This library uses Tailwind CSS for styling.<br/>
@@ -30,7 +30,7 @@ yarn add @bonn/mini-toast
 Import `ToastManager` to root layout
 
 ```typescript
-import { ToastManager } from "@bonn/mini-toast";
+import { ToastManager } from "mole-toast";
 
 export default function RootLayout({
   children,
@@ -52,7 +52,7 @@ Use the toast hook like this:
 
 ```typescript
 import React from "react";
-import { useToast, ToastManager } from "@bonn/mini-toast";
+import { useToast, ToastManager } from "mole-toast";
 
 function App() {
   const toast = useToast();
@@ -95,4 +95,4 @@ This library requires the following peer dependencies to be installed in your pr
 
 ## License
 
-MIT © Bonn Studio
+MIT © Boeun Han

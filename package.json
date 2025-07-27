@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts"
   },
-  "author": "Bonn Studio",
+  "author": "Boeun Han",
   "description": "Lightweight toast notification library using Zustand and React",
   "repository": {
     "type": "git",
