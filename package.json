@@ -14,7 +14,7 @@
   "description": "Lightweight toast notification library using Zustand and React",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BoeunHan/mini-toast.git"
+    "url": "https://github.com/BoeunHan/mole-toast.git"
   },
   "license": "MIT",
   "keywords": [
